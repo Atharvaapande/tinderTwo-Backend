@@ -76,7 +76,7 @@ io.on("connection", (socket) => {
 
 // Use environment variable or hardcoded value for MongoDB URI
 const mongoURI =
-  process.env.MONGO_URI || "mongodb://localhost:27017/TinderClone";
+  process.env.MONGO_URI || "add your mongoDB API";
 
 // Mongoose connection
 mongoose.connect(mongoURI);
